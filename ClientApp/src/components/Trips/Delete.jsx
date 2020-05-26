@@ -52,10 +52,10 @@ export class Delete extends Component{
                 <div class="card-body">
                     <h4 class="card-title"> {this.state.name} </h4>
                     <p class="card-text"> {this.state.description} </p>
-                    <button onClick={this.onCancel} class="btn btn-default">
+                    <button style={{margin:"5px"}} onClick={this.onCancel} class="btn btn-primary">
                     Cancel
                     </button>
-                    <button onClick={this.onConfirmation} class="btn btn-danger">
+                    <button style={{margin:"5px"}} onClick={this.onConfirmation} class="btn btn-danger">
                     Confirm
                     </button>
                     </div>

@@ -76,12 +76,14 @@ export class Trips extends Component {
                   <button
                     onClick={() => this.onTripUpdate(trip.id)}
                     className="btn btn-success btn-sm"
+                    style={{margin:"1px"}}
                   >
                     Update
                   </button>
                   <button
                     onClick={() => this.onTripDelete(trip.id)}
                     className="btn btn-danger btn-sm"
+                    style={{margin:"1px"}}
                   >
                     Delete
                   </button>
